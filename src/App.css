@@ -1,7 +1,42 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d3d1;
+  height: 100vh;
 }
 
+.todo-container{
+  background-color: #313f5c;
+  padding: 20px;
+  margin: 10% auto;
+  border-radius: 15px;
+  width: 650px;
+}
+
+.input-item{
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn-item{
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  background-color: #555c69;
+  color: #fff;
+
+}
+.input-item::placeholder{
+  font-size: 18px;
+}
+
+.todo-container h1{
+  color: #fff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
