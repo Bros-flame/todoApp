@@ -2,7 +2,7 @@
 
 This is a simple ToDo application built with React.js that allows users to manage their tasks. Users can add new tasks, mark tasks as complete, and delete tasks. The app uses local storage to persist tasks even after refreshing the page.
 
-![App Screenshot](<screenshot-url>)
+![App Screenshot](tutorial1-image.PNG)
 
 ## Features
 
